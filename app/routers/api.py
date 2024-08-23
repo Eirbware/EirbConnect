@@ -61,8 +61,11 @@ async def login_post(
             )
 
         return RedirectResponse(
-            url=f"{service_url}?token={create_access_token(user.model_dump())}",
-            status_code=303,
+            url_add_query(
+                service_url,
+                "token",
+                create_access_token(user.model_dump()),
+            )
         )
 
     return user

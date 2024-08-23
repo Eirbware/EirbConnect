@@ -13,7 +13,7 @@ services:
 
     mongodb:
         image: mongo
-        container_name: roulade-mongodb
+        container_name: eirbconnect-mongodb
         ports:
             - "27018:27017"
         command: mongod --auth

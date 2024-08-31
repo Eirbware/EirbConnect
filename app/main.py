@@ -41,7 +41,6 @@ app.include_router(api_router)
 
 # We insert the EirbConnect service
 add_service("EirbConnect")
-add_service("http://localhost:3000")
 
 # Create an account for eirbware, used as an admin account for other services
 # To prevent security issues, the admin password musn't be the default one

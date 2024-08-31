@@ -20,7 +20,7 @@ services:
         environment:
             MONGO_INITDB_ROOT_USERNAME: "roulade_admin"
             MONGO_INITDB_ROOT_PASSWORD: "LaSécuritéC1p0rtant!"
-            MONGO_INITDB_DATABASE: AssosConnect
+            MONGO_INITDB_DATABASE: EirbConnect
             MONGODB_DATA_DIR: /data/db
             MONDODB_LOG_DIR: /dev/null
         networks:

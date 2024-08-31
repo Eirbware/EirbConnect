@@ -4,7 +4,7 @@ from app.conf import HOST
 
 
 client: pymongo.MongoClient = pymongo.MongoClient(host=f"mongodb://{HOST}")
-mongodb = client.AssosConnect
+mongodb = client.EirbConnect
 
 
 def create_collections(collection_list):
